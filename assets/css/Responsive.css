@@ -1,0 +1,712 @@
+@media (max-width: 1199.98px) {
+  .col-custom {
+    width: calc(100% / 3);
+  }
+}
+@media (max-width: 991.98px) {
+  .five-col {
+    width: calc(100% / 3);
+  }
+}
+@media (max-width: 991px) {
+  .container,
+  .container-sm {
+    max-width: 1500px !important;
+  }
+  .world-row {
+    padding-inline: 50px !important;
+    padding-block: 100px;
+  }
+  .SiderItemmm .p-md-10 {
+    padding: 1rem !important;
+  }
+  .fs_46 {
+    font-size: 25px !important;
+  }
+  .LearningPlatform .LernCOtent .Desc p {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .SiderItemmm .row {
+    padding-bottom: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .LearningPlatform {
+    padding-bottom: 0 !important;
+  }
+  .smartSchoolChoice {
+    padding: 70px 50px;
+  }
+
+  footer .navbar-brand-img {
+    width: max-content !important;
+    margin: auto;
+    display: block;
+  }
+  .section-intro h2 {
+    font-size: 25px;
+  }
+  .welcomAboutt .section-intro p {
+    font-size: 16px;
+    padding-right: 0;
+  }
+  .fs_36 {
+    font-size: 25px !important;
+  }
+  .fs_20 {
+    font-size: 16px !important;
+  }
+  .KidsBanner .p-md-10 {
+    padding: 0 !important;
+  }
+  .fs_42 {
+    font-size: 25px !important;
+  }
+  .fs_48 {
+    font-size: 25px !important;
+  }
+  .w-75 {
+    width: 100% !important;
+  }
+  .whyCIqraaIphoo .iqraa-laptop {
+    display: none;
+  }
+  .LineSHapeSsec {
+    padding: 0 15px 0 35px;
+  }
+  .world-row-contact {
+    padding-inline: 50px !important;
+  }
+  .section-intro-text h1 {
+    font-size: 25px !important;
+  }
+  .fs-2 {
+    font-size: 16px !important;
+  }
+  .YourJourny .JournyItem .NextArrow1 {
+    right: 30px;
+  }
+  .fs_24 {
+    font-size: 16px !important;
+  }
+  #EmpoweringParents .LineSHapeSsec .LineSHapeSsecItem h2,
+  #unlockingOportunities .LineSHapeSsec .LineSHapeSsecItem h2 {
+    font-size: 16px;
+  }
+  #EmpoweringParents .LineSHapeSsec .LineSHapeSsecItem p,
+  #unlockingOportunities .LineSHapeSsec .LineSHapeSsecItem p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: inherit;
+  }
+  #unlockingOportunities .p-md-10 {
+    padding: 0 !important;
+  }
+  .w-md-50 {
+    width: 100% !important;
+  }
+  .fs_34 {
+    font-size: 20px !important;
+  }
+  .event-p {
+    color: black;
+    font-size: 16px;
+  }
+  .HowCpay .HowCpayItem .DatatHowCpay h2 {
+    font-size: 25px;
+  }
+  .EcoSysytem .EcoSysytemBox {
+    display: block;
+    width: 70%;
+  }
+  .KidsBannerData h1 {
+    color: #170f49;
+    font-size: 25px;
+  }
+  .ourFormulas .ourFormulasItem .ourFormulasData h2 {
+    font-size: 25px;
+  }
+  p {
+    font-size: 16px !important;
+  }
+  .SweetItem h2 {
+    font-size: 15px;
+  }
+  .AddEvenMore .px-md-12 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
+  #pwoerOfWhite .section-intro-text h2 {
+    font-size: 25px !important;
+  }
+  .fs-4 {
+    font-size: 16px !important;
+  }
+  .display-2 {
+    font-size: 25px;
+  }
+  .BreakingPersona .UnLockDatat .Datata h2 {
+    font-size: 25px;
+  }
+  .FourBoxes .BoxItem .InfoBox h2 {
+    font-size: 16px;
+  }
+  .FourBoxes .BoxItem .InfoBox p {
+    font-size: 14px !important;
+  }
+  .Diversity .DiversityDatat .DivTitle h2 {
+    font-size: 25px;
+  }
+  .customerForm .container {
+    max-width: 100% !important;
+  }
+}
+@media (max-width: 768px) {
+  .five-col {
+    width: calc(100% / 2);
+  }
+
+  .fiecartnerItem img {
+    width: 70%;
+  }
+  .col-custom {
+    width: calc(100% / 2);
+  }
+  .moreThan25Item {
+    margin-bottom: 30px;
+
+    height: auto;
+  }
+  .eventsSec .imageLogoItem {
+    height: auto;
+    margin-bottom: 30px;
+  }
+  .d-xs-block {
+    display: block !important;
+  }
+  .d-xs-block .ms-3 {
+    margin-left: 0 !important;
+  }
+  #aboutUs .section-intro {
+    margin-bottom: 30px;
+  }
+  .cpaypartner-carousel img {
+    margin: auto;
+  }
+  #criteria img {
+    width: 100%;
+  }
+  .box .boxi {
+    max-width: 100%;
+    width: 100% !important;
+  }
+  .C_PayBanner .video {
+    margin-bottom: 30px;
+  }
+  .C_PayBanner .video iframe {
+    width: 100% !important;
+  }
+  .KidsLogo img {
+    width: 100px !important;
+  }
+  .lg-font {
+    font-size: 30px !important;
+  }
+  .md-font {
+    font-size: 30px !important;
+  }
+  .ImpowerSemmless .SecTitle {
+    margin: 0;
+    margin-bottom: 40px;
+    width: 100%;
+  }
+  .SecTitle,
+  .SecTitle h1,
+  .SecTitle h2,
+  .SecTitle p {
+    width: 100% !important;
+  }
+  .SecTitle h1 {
+    font-size: 30px !important;
+    line-height: normal !important;
+  }
+  .ImpowerSemmless .ImpowerSemmlessItem .Datata {
+    text-align: start !important;
+  }
+  .MoreDatat {
+    margin: auto !important;
+    margin-top: 40px !important;
+    width: max-content !important;
+  }
+  .HowCpay .HowCpayItem .Image {
+    position: relative !important;
+    width: 100% !important;
+  }
+  .display-1 {
+    font-size: 30px;
+  }
+  .C_Iqraa .KidsBannerData {
+    padding-right: 0;
+  }
+  .whyCIqraa .WhyCpAtern img {
+    position: relative;
+  }
+  .whyCIqraa .WhyCpAtern {
+    position: relative;
+  }
+  .UnLockCpay h1 {
+    font-size: 30px !important;
+  }
+  .classera-pattern,
+  .classera-logo-backdrop {
+    padding: 0 !important;
+  }
+  .section-intro-text h1.mini {
+    font-size: 30px;
+  }
+  #C-RealityOffers h2 {
+    width: 100% !important;
+  }
+  .CrealityOffersDatata {
+    padding: 50px 0;
+  }
+  #CreatingAndSharing h2 {
+    width: 100% !important;
+  }
+  .YourJourny .JournyItem .NextArrow1 {
+    display: none;
+  }
+  .YourJourny .JournyItem {
+    margin-bottom: 30px;
+  }
+  .playTheGame .playTheGameBox p {
+    width: 100%;
+  }
+  .WHyEdiuImage .back {
+    position: relative;
+  }
+  .rewardsInspire {
+    width: 90%;
+  }
+  .fontresspon {
+    font-size: 30px;
+  }
+  .inspire-merchant-card {
+    min-height: auto;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    margin-bottom: 15px;
+  }
+  .display-4 {
+    font-size: 30px;
+  }
+  .HowItsWork .HowItsWorkDatat {
+    padding: 50px 0;
+  }
+  .EcoSysytem .EcoSysytemBox {
+    display: block;
+    width: 100%;
+  }
+  .KidsGamifiedContent img {
+    width: 100% !important;
+  }
+
+  .UnlockLearnImage img {
+    width: 100%;
+  }
+  .UnlockLearnSec .UnlockLearn h2 {
+    font-size: 30px;
+  }
+  .Diversity .DiversityDatat .DivTitle h2 {
+    font-size: 30px;
+  }
+  .TrainingBanner .TrainingBannerData .BannerInfoo {
+    padding: 15px;
+  }
+  .TrainingBanner .TrainingBannerData {
+    position: relative;
+    height: 650px;
+  }
+  .CompetitiveItems .CompetitiveItem {
+    text-align: center;
+  }
+  .SimplifiedSchool .KidsBannerData .desc {
+    padding-right: 0;
+  }
+
+  .welcomAboutt .section-intro p {
+    padding-right: 0px;
+  }
+  .We_Transfer_Sec .journy-card {
+    height: auto;
+  }
+  .journy-intro.mb-10 {
+    margin-bottom: 0 !important;
+  }
+  .HolisticSect.py-10 {
+    padding-top: 0 !important;
+  }
+  .w-80 {
+    width: 100% !important;
+  }
+  .groupartnerIamage {
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+  }
+  .TetsimonaialAbout .tetsemoialItemss .tetstItem .tetstDatat {
+    padding: 25px 0 25px 00px;
+  }
+  .TetsimonaialAbout .tetsemoialItemss .tetstItem .tetstDatat .testDesxc img {
+    display: none;
+  }
+  .TetsimonaialAbout .owl-dots {
+    left: 20px;
+    right: auto;
+  }
+  .TetsimonaialAbout .owl-nav {
+    gap: 10px;
+    right: 20px;
+  }
+
+  .contact-us .section-intro-text {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .TetsimonaialAbout .tetsemoialItemss .tetstItem .tetstiImage {
+    padding: 40px 0;
+  }
+  #whyClassera .section-intro-text {
+    margin-bottom: 30px;
+  }
+
+  #leadingLearning .p-5 {
+    padding: 0 !important;
+  }
+  .KidsGamified
+    .KidsGamifiedContent
+    .FaQSBox
+    .FaqsssItem
+    .FaqsHeader
+    h5
+    button {
+    text-align: start;
+  }
+
+  .container-fluid {
+    padding: 10px;
+  }
+  .our-partners {
+    padding: 50px 20px;
+  }
+
+  #k12Learning {
+    padding-top: 0 !important;
+  }
+  .w-70 {
+    width: 100% !important;
+  }
+
+  .cyrcles {
+    position: relative;
+    height: 300px;
+    width: 100%;
+  }
+  .cyrcles .one {
+    width: 100%;
+  }
+  .ImpowerSemmless .ImpowerSemmlessItem .Datata {
+    text-align: center !important;
+  }
+
+  .KidsBanner .col-md-5.p-10 {
+    padding: 1rem !important;
+  }
+  .fs_48 {
+    font-size: 36px !important;
+  }
+
+  .AddEvenMoreItemss .p-0 {
+    padding: 0 15px !important;
+  }
+  .C_PayBanner {
+    background: #fbfbff;
+    padding-bottom: 50px !important;
+  }
+  .w-90 {
+    width: 100% !important;
+  }
+
+  .fs_36 {
+    font-size: 24px !important;
+  }
+  .WhoCRealityItem {
+    width: 100%;
+  }
+  .downappbox {
+    gap: 15px !important;
+    justify-content: center;
+  }
+  .featuers-card {
+    margin: 0;
+  }
+  .custom-scrollBar {
+    left: 0;
+  }
+  .ListCreating {
+    padding-left: 15px;
+  }
+
+  #Available .p-7 {
+    padding: 1.5rem !important;
+  }
+  .col-xs-12 {
+    width: 100% !important;
+    flex: auto;
+  }
+  .cardsRankBox .cardRankItem {
+    margin-bottom: 30px;
+  }
+
+  .cardsRankBox {
+    padding: 15px;
+  }
+  .EnhancelarninngSec {
+    padding: 1rem !important;
+  }
+  .ImageVideo img {
+    margin-top: 30px;
+  }
+  #EmpoweringParents .p-7 {
+    padding: 1.5rem !important;
+  }
+
+  .smartSchoolChoice {
+    padding: 35px;
+  }
+  .LogosGroup img {
+    margin-bottom: 30px;
+    height: auto !important;
+  }
+
+  #aboutUs .position-relative img {
+    margin-top: 30px;
+  }
+  #publicSector .position-relative img {
+    margin-bottom: 30px;
+  }
+  h1,
+  .fs_46,
+  .fs_42,
+  .fs_48 {
+    font-size: 32px !important;
+  }
+  .fs_20 {
+    font-size: 16px !important;
+  }
+  .fs_24 {
+    font-size: 20px !important;
+  }
+  .ListMenu {
+    margin: 10px 0px;
+  }
+  .LineSHapeSsec2 {
+    padding: 0 10px 0 20px;
+    position: relative;
+  }
+  .privacy-content p {
+    padding: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .privacy-content .mb-10 {
+    margin-bottom: 1rem !important;
+  }
+  .privacy-content .fs_36 {
+    font-size: 18px !important;
+  }
+  .privacy-content .mt-10 {
+    margin-top: 2rem !important;
+  }
+  .privacy-content {
+    padding-top: 50px !important;
+  }
+  .section-intro-text h1 {
+    font-size: 24px !important;
+  }
+  .DowenloadCauseStydddey {
+    justify-content: center !important;
+  }
+  .hr_res {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+  .causestudeis-carousel .owl-nav {
+    right: 10px;
+    top: -75px;
+  }
+  .fs_32 {
+    font-size: 20px !important;
+  }
+  .causeStydessPage {
+    padding-top: 0 !important;
+  }
+  .py-10 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  .tabs .nav .nav-item,
+  .classera-card,
+  .promo-code-section .input-wrapper {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+  }
+  .classera-cards {
+    width: 100% !important;
+  }
+  .mb-10 {
+    margin-bottom: 2rem !important;
+  }
+  .ourPartnersAbout .item {
+    height: 160px;
+  }
+  .relatedNewsItem {
+    display: block !important;
+  }
+  .relatedNewsItem img {
+    max-width: 100% !important;
+    margin-bottom: 15px;
+  }
+  .blog-content {
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+  .navbar-brand-img {
+    max-height: 3.8rem;
+    width: auto !important;
+  }
+  .section-intro-text h2 {
+    font-size: 18px !important;
+  }
+  .imagePlaySec .ImageBox {
+    width: 100%;
+  }
+  .classera-pattern,
+  .classera-logo-backdrop {
+    padding: 0 !important;
+    padding-top: 50px !important;
+  }
+  .KidsLogo img {
+    width: auto;
+    height: auto;
+  }
+  .WHyEdiuImage img {
+    width: 100%;
+  }
+  .privacy-content h3 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+    color: #045e7b;
+    margin-bottom: 15px !important;
+  }
+  .privacy-content li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: inherit;
+    color: #000;
+    margin-bottom: 10px;
+  }
+  .privacy-content ol {
+    padding-left: 30px;
+  }
+  .privacy-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: inherit;
+    color: #000;
+    padding-inline-start: 18px;
+    margin-bottom: 40px;
+  }
+  .three-labels .one-labele {
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .news-card {
+    margin-bottom: 30px;
+  }
+  .news-card .news-card-head {
+    margin-bottom: 10px;
+  }
+  .ImageVideo .Image {
+    padding: 10px !important;
+  }
+  .ImageVideo .Image img {
+    margin-top: 0;
+  }
+  .smartSchool .AppDonBox h2 {
+    line-height: inherit !important;
+  }
+  #contactUs h1 {
+    line-height: inherit !important;
+    font-size: 24px !important;
+  }
+  .HierBanner .mt-10 {
+    margin-top: 0 !important;
+  }
+  .KidsGamified {
+    padding-bottom: 0;
+  }
+  .KidsBannerData h1 {
+    font-size: 28px !important;
+  }
+  #BeTheTopChoice .p-5 {
+    padding: 0 15px !important;
+  }
+  #EmpoweringParents .LineSHapeSsec .LineSHapeSsecItem h2,
+  #unlockingOportunities .LineSHapeSsec .LineSHapeSsecItem h2 {
+    font-size: 24px;
+  }
+  .KidsLogo {
+    height: auto;
+  }
+  .fs_34 {
+    font-size: 28px !important;
+  }
+  .LineSHapeSsec {
+    padding: 0 0px 0 35px !important;
+  }
+  .section-intro-text h2 {
+    line-height: inherit;
+  }
+  .We_Transfer_Sec .Sec_Title h2 {
+    line-height: initial;
+    font-size: 32px;
+  }
+  .LearningPlatform,
+  .LearningPlatform .pb-10 {
+    padding-bottom: 0 !important;
+  }
+  .intro-carousel {
+    height: auto !important;
+  }
+  .navbar-nav .dropdown > .dropdown-menu {
+    display: none !important;
+  }
+  .navbar-nav .nav-item.active .dropdown-menu {
+    display: block !important;
+    margin-top: 10px;
+  }
+  .navbar-nav .dropdown > .dropdown-toggle {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .col-custom {
+    width: 100%;
+  }
+}

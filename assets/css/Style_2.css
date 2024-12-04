@@ -1,0 +1,62 @@
+/* Section HowARWork */
+@media (max-width: 767.98px) {
+  .child {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .child h2 {
+    font-size: 18px;
+    padding-top: 28px;
+  }
+  .child img {
+    width: 100%;
+  }
+  .child {
+    font-size: 11px;
+    margin-inline: 26px;
+    padding-block: 14px;
+  }
+}
+
+.rounded-5 {
+  border-radius: 25px;
+}
+
+.customBorder {
+  padding: 13px;
+  border: 2px solid #30afdf;
+  border-radius: 7px;
+}
+.first-two-words::after {
+  content: "";
+  display: block;
+}
+
+.custom-scrollBar {
+  position: relative;
+  top: -7px;
+  left: -7px;
+  width: 7px;
+  height: 409px;
+  background-color: #eaeaea;
+  border-radius: 50px;
+}
+
+.custom-scrollBar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7px;
+  height: 80px;
+  background-color: #6641af;
+  border-radius: 100px;
+}
+
+.CustomCircle {
+  position: absolute;
+  top: 43%;
+  left: 43%;
+}

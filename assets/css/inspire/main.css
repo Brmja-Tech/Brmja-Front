@@ -1,0 +1,119 @@
+:root {
+  --hero-height: 511px;
+  --hero-width: 100%;
+  --bg-color: #f4f7fd;
+  --bg-pattern: url(../../img/inspire/hero-pattern.svg);
+  --higlight-color: #14b6c9;
+  --download-app-bg: #f4f7fd;
+  --download-app-bg: #f4f7fd;
+  --featuer-card-border-color: #bed3ff;
+  --merchant-bg: #52327814;
+}
+
+.inspire.hero {
+  background: var(--bg-color) var(--bg-pattern) no-repeat;
+  background-size: auto;
+  background-position: left;
+  background-blend-mode: screen;
+}
+
+.inspire-highlight {
+  color: var(--higlight-color) !important;
+}
+
+.c-inspire {
+  background: linear-gradient(90deg, #c6237f 20%, #664894 70%, #7fb6d2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: bold;
+}
+
+.inspire-download-app-bg {
+  background: var(--download-app-bg);
+}
+
+.inspire-pattern-bg,
+.inspire-pattern-start-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.inspire-pattern-bg::after {
+  content: "";
+  position: absolute;
+  bottom: -30%;
+  left: 80%;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-pattern) no-repeat;
+}
+
+.inspire-pattern-start-bg::after {
+  content: "";
+  position: absolute;
+  bottom: -70px;
+  left: -393px;
+  width: 100%;
+  height: 100%;
+  background: var(--bg-pattern) no-repeat;
+}
+
+.inspire-app-feature-card {
+  border: 0.5px solid var(--featuer-card-border-color);
+  padding: 8px 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.inspire-sweet-deals-card {
+  min-width: 520px;
+  border: 1.5px solid #14b6c9;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.inspire-merchant-bg {
+  background: var(--merchant-bg);
+}
+
+.inspire-merchant-card {
+  min-height: 250px;
+}
+
+.inspire-experience {
+  background: #ebf4f6;
+  border-radius: 30px;
+}
+
+.inspire.accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.inspire.accordion .accordion-item {
+  background: white;
+  border-radius: 30px;
+  border: 1.5px solid #14b6c9;
+  overflow: hidden;
+}
+
+.inspire.accordion .accordion-button::after {
+  background-image: none;
+}
+
+.inspire.accordion .accordion-button:not(.collapsed) {
+  background: none;
+}
+
+.inspire.video-play-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  left: 50%;
+}

@@ -1,0 +1,20 @@
+.custom-scrollBar {
+  position: relative;
+  top: -0px;
+  left: -7px;
+  width: 7px;
+  height: 300px;
+  background-color: #eaeaea;
+  border-radius: 50px;
+}
+
+.custom-scrollBar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 7px;
+  height: 80px;
+  background-color: #6641af;
+  border-radius: 100px;
+}

@@ -1,0 +1,10 @@
+:root {
+    --dail-hover-bg: #F4F7FD;
+}
+
+.contact-us.dail-option {
+    cursor: pointer;
+}
+.contact-us.dail-option:hover {
+    background: var(--dail-hover-bg);
+}

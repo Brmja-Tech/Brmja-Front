@@ -1,0 +1,53 @@
+body {
+  direction: rtl;
+  text-align: start;
+}
+
+.header-btn {
+  margin-inline: 5px;
+}
+.numbers-label.me-2,
+.numbers-label.ms-2 {
+  margin-inline: 5px;
+}
+.three-dots {
+  right: auto;
+  left: 0;
+}
+
+.VoicesPartners .flickity-button.previous {
+  right: auto;
+  left: 0;
+}
+.VoicesPartners .flickity-button.next {
+  right: auto;
+  left: 40px;
+}
+.we-cherish-person {
+  margin-left: 15px;
+}
+
+.rtl-m-left {
+  margin-left: 10px;
+}
+.rtl-m-right {
+  margin-right: 10px;
+}
+.reverse-flex {
+  display: flex;
+  flex-direction: row-reverse;
+  width: fit-content;
+  align-items: center;
+}
+.whyCIqraa .WhyCpAtern {
+  top: 0;
+  left: 0;
+  right: auto;
+}
+
+.whyCIqraa .WhyCpAtern img {
+  transform: scaleX(-1);
+  right: auto;
+  left: 0 !important;
+  top: 0;
+}

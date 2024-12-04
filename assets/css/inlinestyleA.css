@@ -1,0 +1,160 @@
+.a_1div {
+  justify-content: space-evenly;
+}
+.a_2img4 {
+  background-image: url(../img/calsera/news-banner4.jpg);
+}
+.a_2img5 {
+  background-image: url(../img/calsera/news-banner5.png);
+}
+.a_2img6 {
+  background-image: url(../img/calsera/news-banner6.jpg);
+}
+.a_hr {
+  width: 1000px;
+}
+.a_copylink {
+  background: transparent;
+  border-color: #d5dae1;
+  color: #556987;
+}
+
+.a_face {
+  background: transparent;
+  margin-left: 20px;
+  border-color: #d5dae1;
+  color: #556987;
+}
+.a_x {
+  background: transparent;
+  border-color: #d5dae1;
+  color: #556987;
+}
+
+.a_insta {
+  background: transparent;
+  border-color: #d5dae1;
+  color: #556987;
+}
+
+.a_newsspan {
+  margin-bottom: 40px;
+}
+
+.a_openroles {
+  background: #ebf4f6d9;
+}
+
+.a_persona1 {
+  background-color: #fff;
+}
+
+.a_pinkspan {
+  color: #812fd4;
+}
+
+.a_personarow {
+  justify-content: center;
+}
+
+.a_personadata {
+  min-height: 125px;
+}
+
+.a_persona2 {
+  background-color: #fff;
+}
+
+.a_bodycolor {
+  background-color: #f5f9fc;
+}
+
+.a_pricenone {
+  display: none;
+}
+
+.a_reseller1 {
+  background-color: #fff;
+}
+
+.a_resellerh1 {
+  font-size: 42px;
+}
+.a_resellerterkwaz {
+  color: #045e7b;
+}
+
+.a_reseller2 {
+  background-color: #fff;
+}
+
+.a_resellermax {
+  max-width: 540px;
+}
+
+.a_securityinline {
+  line-height: 45px;
+}
+
+.a_securityimg {
+  background-color: transparent;
+}
+
+.a_securityimglogo {
+  width: auto !important;
+  top: 40% !important;
+}
+.a_telecome1 {
+  background-color: #fff;
+}
+.a_telecomeh1 h1 {
+  font-size: 42px !important;
+}
+.a_training1 {
+  background-color: #f4f7fd;
+}
+.a_trainingbgtrans {
+  background-color: transparent !important;
+}
+.a_webi1 {
+  background-color: #fff;
+}
+.a_webih1 {
+  font-size: 48px;
+}
+.a_webih1data {
+  font-size: 25px;
+  text-decoration: underline;
+}
+.a_whyh1 {
+  font-size: 35px !important;
+}
+
+.a_whymap {
+  opacity: 0.3;
+}
+
+.a_whymc1 {
+  color: #170f49;
+}
+.a_whymc2 {
+  color: #58955c;
+}
+.a_whybg1 {
+  background-color: #f4f7fd;
+}
+
+.a_whymax {
+  max-width: 900px;
+}
+.a_whyrow {
+  justify-content: center;
+}
+
+.a_whybg2 {
+  background: linear-gradient(90deg, #e2ecff 0%, #ebf4f6 100%);
+}
+
+.a_whymax2 {
+  max-width: 700px;
+}

@@ -1,0 +1,44 @@
+:root {
+    /*--lsp-bg: #F4F7FD;*/
+    /*--lsp-color: #045E7B;*/
+    /*--lsp-badge-bg: #004D72;*/
+    /*--blog-pattern-top-left: url("../../img/classera/pattern-top-left.png");*/
+    /*--blog-pattern-bottom-right: url("../../img/classera/pattern-bottom-right.png");*/
+}
+
+/*.blog.lsp-alert {*/
+/*    background: var(--lsp-bg);*/
+/*    color: var(--lsp-color);*/
+/*}*/
+
+/*.blog.lsp-badge {*/
+/*    background: var(--lsp-badge-bg);*/
+/*    color: #fff;*/
+/*}*/
+
+/*.blog-pattern {*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.blog-pattern::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-repeat: no-repeat;*/
+/*    background-image: var(--blog-pattern-top-left);*/
+/*}*/
+
+/*.blog-pattern::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    bottom: -85%;*/
+/*    right: -85%;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background-repeat: no-repeat;*/
+/*    background-image: var(--blog-pattern-bottom-right);*/
+/*}*/

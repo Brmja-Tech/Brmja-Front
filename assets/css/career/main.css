@@ -1,0 +1,59 @@
+:root {
+    --reason-yellow-bg: #FFFAEA;
+    --reason-menta-bg: linear-gradient(107.65deg, #E3F9E5 -1.97%, #BFE4EB 123.02%);
+    --reason-light-menta-bg: #EBF4F6;
+    --reason-blue-bg: linear-gradient(282.13deg, #CDDBF8 0%, #EDF2F6 98.87%);
+    --gradient-top-left-img: url("../../img/career/yallow-bg-gradient-top-left.png");
+    --gradient-bottom-right-img: url("../../img/career/yallow-bg-gradient-bottom-right.png")
+}
+
+.reason.card {
+    position: relative;
+    overflow: hidden;
+}
+
+.reason-yellow-bg {
+    background-color: var(--reason-yellow-bg);
+}
+
+.reason-meant-bg {
+    background: var(--reason-menta-bg);
+}
+
+.reason-light-meant-bg {
+    background-color: var(--reason-light-menta-bg);
+}
+
+.reason-blue-bg {
+    background: var(--reason-blue-bg);
+}
+
+
+.reason-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--gradient-top-left-img);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    mix-blend-mode: color-burn;
+}
+
+.reason-bg::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--gradient-bottom-right-img);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    mix-blend-mode: color-burn;
+}
+
+
