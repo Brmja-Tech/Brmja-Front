@@ -37,6 +37,113 @@
   <link rel="stylesheet" href="assets/css/Responsive.css" />
   <title>Brmja-Tech</title>
 </head>
+<style>
+  .social-banner {
+    position: absolute
+  }
+
+
+  .testimonial-container {
+    display: flex;
+    width: 80%;
+    /* max-width: 1000px; */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .static-image {
+    flex: 1;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+  }
+
+  .static-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .testimonial-slider {
+    flex: 2;
+    padding: 20px;
+    height: 90%;
+    margin: auto;
+  }
+
+  .slide {
+    display: none;
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  .slide.active {
+    display: block;
+  }
+
+  .testimonial-text {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+  }
+
+  .user-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .user-name {
+    font-weight: bold;
+    color: #555;
+  }
+
+  .user-title {
+    font-size: 0.9em;
+    color: #777;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .dots-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .dot.active {
+    background-color: #333;
+  }
+</style>
 
 <body>
 
@@ -80,11 +187,11 @@
           </li>
 
           <li class="nav-item dropdown">
-            <a href="" class="nav-link">Hosting price</a>
+            <a href="price.html" class="nav-link">Hosting price</a>
           </li>
 
           <li class="nav-item dropdown">
-            <a href="" class="nav-link">Booking Domain</a>
+            <a href="domain.html" class="nav-link">Booking Domain</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -149,14 +256,15 @@
         </li>
 
         <li class="nav-item border-0 px-0 d-none d-xl-block">
-          <a href="" target="_blank" class="btn btn-primary me-3" style="background-color: #fff; color: #000;"><img src="assets/img/brmja-imgs/en-flag.svg" alt=""> English</a>
+          <a href="" target="_blank" class="btn btn-primary me-3" style="background-color: #fff; color: #000;"><img
+              src="assets/img/brmja-imgs/en-flag.svg" alt=""> English</a>
         </li>
 
         <li class="nav-item border-0 px-0 d-none d-xl-block">
           <a target="_blank" href="signup.html" class="btn btn-primary" style="color: #000;">Start Now</a>
         </li>
 
-        
+
       </ul>
       <!-- Toggler -->
       <button
@@ -179,8 +287,23 @@
       <div class="row g-5 align-items-center">
         <div class="col-sm-12 col-md-12 col-lg-7 order-md-2">
           <div class="ImageVideo">
-            <div class="Image text-end p-5">
+            <div class="Image text-end p-5" style="position: relative;">
               <img src="assets/img/brmja-imgs/hero-image.png" class="w-100">
+              <a href="#">
+                <img src="assets/img/brmja-imgs/facebook.png" width="" style="top: 9%; left: 18%;"
+                  class="social-banner facebook">
+              </a>
+              <a href="">
+                <img src="assets/img/brmja-imgs/whatsapp.png" width="" style="bottom: 2%; left: 17%;"
+                  class="social-banner whatsapp">
+              </a>
+              <a href=""> <img src="assets/img/brmja-imgs/twitter.png" width="" style="bottom: 4%;right: 14%;"
+                  class="social-banner twitter">
+              </a>
+              <a href="#">
+                <img src="assets/img/brmja-imgs/linkedin.png" width="" style="top: 30%; left: -5%;"
+                  class="social-banner linkedin">
+              </a>
             </div>
           </div>
         </div>
@@ -190,7 +313,7 @@
               <h1 class="terkwaz fw_700">iluminating the world of </h1>
               <h1 class=" display-2 fw_700" style="font-size: 50px">
                 <span class="main-span">technology</span>
-                <img src="assets/img/brmja-imgs/lg-carve-line.png" alt="">
+                <img src="assets/img/brmja-imgs/lg-carve-line.png" class="line-curve" alt="">
               </h1>
 
               <div class="desc">
@@ -363,7 +486,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="col-md-6 col-lg-6" data-aos="fade-left">
           <div class="unlocking-card">
             <img src="assets/img/brmja-imgs/home/Some of our distinguished works/image logo.png" alt="" />
@@ -396,15 +519,124 @@
     </div>
   </section>
 
+  <!-- <div class="testimonial-container">
+    <div class="static-image">
+      <img src="./assets/img/brmja-imgs/Rectangle 7.png" alt="Static Image" />
+    </div>
+    <div class="testimonial-slider">
+      <div class="slide active">
+        <p class="testimonial-text">
+          "Their product exceeded my expectations. The quality and attention to detail are outstanding, and it has
+          become an essential asset."
+        </p>
+        <div class="user-info">
+          <img src="assets/img/brmja-imgs/home/so what do our clients/user photo.png" alt="User 1" class="user-photo" />
+          <p class="user-name">Mr. Sharif</p>
+          <p class="user-title">CEO, Brmja Tech Company</p>
+        </div>
+      </div>
+      <div class="slide">
+        <p class="testimonial-text">
+          "Excellent service and support! The team was professional and delivered exactly what we needed."
+        </p>
+        <div class="user-info">
+          <img src="user2.jpg" alt="User 2" class="user-photo" />
+          <p class="user-name">Ms. Sara</p>
+          <p class="user-title">Manager, Tech Innovations</p>
+        </div>
+      </div>
+      <div class="dots-container">
+        <span class="dot active" data-slide="0"></span>
+        <span class="dot" data-slide="1"></span>
+        <span class="dot" data-slide="2"></span>
+      </div>
+    </div>
+  </div> -->
+
+
+  <footer class="py-10 pt-12 text-white py-5"
+    style="background-color: #092233; background-image: url(assets/img/brmja-imgs/line.png); background-repeat: no-repeat; background-size: cover;">
+    <div class="container">
+      <div class="row d-flex justify-content-center">
+        <!-- About Section -->
+        <div class="col-md-6 mb-4">
+          <button class="btn btn-primary mb-2"
+            style="background-color: #0B2D45; padding: 12px 36px; font-size: 18px;">Work Process</button>
+          <h1 class="mb-3" style="color: #fff; font-weight: 200;"><span class="fw_700">BRMJA TECH </span> Is A
+            Leading Web Software Development Company.</h1>
+          <p style="color: #fff;">
+            Website Design And Mobile Phone Application Programming.
+            It Also Provides Website Hosting Service, Advertising Video Design, Website Archiving Service
+            (SEO),
+            E-Marketing, Buying And Selling Websites, And Preparing Store Applications (ASO).
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-3 mb-4">
+          <button class="btn btn-primary mb-2"
+            style="background-color: #0B2D45; padding: 12px 36px; font-size: 18px;">Quick Links</button>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-white text-decoration-none">GDPR</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Terms And Conditions</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Return And Refund Policy</a></li>
+            <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Say Hello Section -->
+        <div class="col-md-3">
+          <button class="btn btn-primary mb-2"
+            style="background-color: #0B2D45; padding: 12px 36px; font-size: 18px;">Say Hello</button>
+          <ul class="list-unstyled">
+            <li>Support@Brmja.Tech</li>
+            <li>Ahmed@Brmja.Tech</li>
+            <li>Ceo@Brmja.Tech</li>
+          </ul>
+          <div class="mt-3">
+            <a href="#" class="text-white me-3"><i class="fa-brands fa-x-twitter" style="font-size: 25px;"></i></a>
+            <a href="#" class="text-white me-3"><i class="fa-brands fa-whatsapp" style="font-size: 25px;"></i></a>
+            <a href="#" class="text-white me-3"><i class="fa-brands fa-linkedin-in" style="font-size: 25px;"></i></a>
+            <a href="#" class="text-white"><i class="fa-brands fa-facebook-f" style="font-size: 25px;"></i></a>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="input-group mt-3">
+            <input type="text" style="background-color: #fff;" class="form-control" placeholder="Review Us ..."
+              aria-label="Review">
+            <button class="btn" style="background-color: #E8B931; border-radius: 0px;" type="button"><i
+                class="fa-regular fa-paper-plane" style="color: #fff;"></i></button>
+          </div>
+        </div>
+
+        <div class="col-md-4" style="display: flex; align-items: center;">
+          <div class="mt-4">
+            <p class="mb-1" style="color: #fff;">© 2024. All Rights Reserved By Brmja Tech.</p>
+          </div>
+        </div>
+
+        <div class="col-md-2" style="display: flex; align-items: center;">
+          <div class="text-center mt-4">
+            <img src="assets/img/brmja-imgs/visa-color.png" alt="Visa" class="me-2">
+            <img src="assets/img/brmja-imgs/mastercard-color.png" alt="MasterCard">
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom -->
+
+    </div>
+  </footer>
 
 
   <!-- <footer class="pt-8 pt-md-8 pb-4 NewFooter">
-    <div class="container">
+    <div class="w-90">
       <div class="row" id="accordionFooter">
         <div class="col-12 col-md-12 col-lg-4">
 
-          <img src="assets/img/brmja-imgs/logo.png" class="navbar-brand-img mb-5" alt="..."
-            style="width: 100%; height: 110px" />
 
           <ul class="list-unstyled list-inline list-social mb-4 mb-md-4 mx-n2 text-center">
             <li class="list-inline-item list-social-item">
@@ -692,6 +924,41 @@
       }, 50)
 
     })
+
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+
+    let currentIndex = 0;
+
+    // Function to show a specific slide
+    function showSlide(index) {
+      slides.forEach((slide, i) => {
+        slide.classList.remove('active');
+        dots[i].classList.remove('active');
+        if (i === index) {
+          slide.classList.add('active');
+          dots[i].classList.add('active');
+        }
+      });
+    }
+
+    // Add click event to dots
+    dots.forEach((dot, i) => {
+      dot.addEventListener('click', () => {
+        currentIndex = i;
+        showSlide(currentIndex);
+      });
+    });
+
+    // Automatically change slides every 5 seconds
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      showSlide(currentIndex);
+    }, 10000);
+
+    // Initial slide display
+    showSlide(currentIndex);
+
   </script>
 </body>
 

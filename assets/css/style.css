@@ -602,7 +602,7 @@ form.woocommerce-checkout .place-order .button {
   background-image: url(../img/brmja-imgs/footer-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  min-height: 50vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -616,6 +616,40 @@ form.woocommerce-checkout .place-order .button {
   width: 100%;
   height: auto;
   max-height: fit-content;
+}
+
+footer {
+  background-color: #111;
+  /* Matches the dark background */
+  color: #fff;
+}
+
+footer h5 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+footer .input-group input {
+  border-radius: 0.25rem;
+}
+
+footer .input-group button {
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 0 0.25rem 0.25rem 0;
+}
+
+footer a {
+  font-size: 0.9rem;
+}
+
+footer .bi {
+  font-size: 1.2rem;
+}
+
+footer img {
+  width: 40px;
+  height: auto;
 }
 
 /* .AwardsSec {
@@ -4923,6 +4957,15 @@ p {
 }
 
 @media (max-width: 768px) {
+
+  .social-banner {
+    width: 20%;
+  }
+
+  .line-curve{
+    display: none;
+  }
+
   .CompetitiveItems {
     width: 100%;
   }
@@ -5070,7 +5113,7 @@ p {
 
   .KidsBannerData h1 {
     font-size: 32px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
   }
 
   .UnLockCpay .UnLockDatat .LamelTitle h2 {

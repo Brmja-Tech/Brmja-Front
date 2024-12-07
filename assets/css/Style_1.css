@@ -1978,12 +1978,13 @@ h4 {
 .exp-card {
   padding: 30px;
   border-radius: 20px;
-  text-align: center;
+  text-align: left;
   background-color: white;
+  border: 1px solid #fff;
   position: relative;
 }
 
-.exp-card::after {
+/* .exp-card::after {
   content: "";
   position: absolute;
   top: 0;
@@ -1999,20 +2000,20 @@ h4 {
       #14b6c9 100%);
   z-index: -1;
   transition: 0.3s;
-}
+} */
 
 .exp-card:hover::after {
   box-shadow: 0px 4px 30px 0px #045e7b40;
 }
 
 .exp-card .exp-card-top {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: left;
+}
+.exp-card .exp-card-top h2{
+  color: #000;
 }
 
 .exp-card .exp-card-top>* {
-  margin-inline: 10px;
 }
 
 .exp-card p {
@@ -2021,6 +2022,16 @@ h4 {
   line-height: 30px;
   color: #404040;
   margin-top: 20px;
+}
+
+.exp-card .price-details p {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.exp-card .price-details span {
+  color: #BF6A02;
+  font-weight: bold;
 }
 
 .world-row-wrapper-contact {
