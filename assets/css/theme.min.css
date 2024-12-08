@@ -13917,7 +13917,7 @@ form.woocommerce-checkout .place-order .placeholder.button::before {
 }
 .bg-teal {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-teal-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #E8B931 !important;
 }
 .bg-ice {
   --bs-bg-opacity: 1;
